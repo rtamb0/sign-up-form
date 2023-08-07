@@ -10,3 +10,17 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    display: flex;
+}
+
+header {
+    background-image: url(assets/theconduit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 100vh;
+    min-width: 35vw;
+}
+
