@@ -143,18 +143,27 @@ input:required + span::before {
     color: rgb(172, 166, 166);
 }
 
-input:required:valid + span::before {
+input + span::before {
+    content: "Optional";
+    position: absolute;
+    left: 190px;
+    bottom: 38px;
+    font-size: 0.8rem;
+    color: rgb(172, 166, 166);
+}
+
+input:valid + span::before {
     color: rgb(61, 196, 95);
 } 
 
-input:required:invalid + span::before {
+input:invalid + span::before {
     color: rgb(216, 53, 53);
-} 
+}
 
 input:placeholder-shown {
     border-color: #7a7a7a;
 }
 
-input:placeholder-shown:invalid + span::before{
+input:placeholder-shown + span::before {
     color: rgb(172, 166, 166);
 }
