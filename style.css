@@ -116,6 +116,10 @@ input {
     border: 2px solid #7a7a7a;
 }
 
+input::placeholder {
+    padding: 1rem 0;
+}
+
 input:required + span::before {
     content: "Required";
     position: absolute;
