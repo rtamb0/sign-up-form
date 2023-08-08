@@ -113,11 +113,25 @@ input {
     line-height: 1rem;
     width: 250px;
     border-radius: 0.6rem;
-    border: 2px solid #7a7a7a;
+    border: 2px solid;
+    /* border-color default is in input:placeholder-shown */
 }
 
 input::placeholder {
     padding: 1rem 0;
+}
+
+input:focus {
+    outline-color: rgb(48, 121, 216);
+    box-shadow: 5px 5px 33px -3px rgb(178, 182, 80);
+}
+
+input:invalid {
+    border-color: rgb(216, 53, 53);
+}
+
+input:valid {
+    border-color: rgb(104, 197, 126);
 }
 
 input:required + span::before {
@@ -126,5 +140,21 @@ input:required + span::before {
     left: 190px;
     bottom: 38px;
     font-size: 0.8rem;
+    color: rgb(172, 166, 166);
+}
+
+input:required:valid + span::before {
+    color: rgb(61, 196, 95);
+} 
+
+input:required:invalid + span::before {
+    color: rgb(216, 53, 53);
+} 
+
+input:placeholder-shown {
+    border-color: #7a7a7a;
+}
+
+input:placeholder-shown:invalid + span::before{
     color: rgb(172, 166, 166);
 }
