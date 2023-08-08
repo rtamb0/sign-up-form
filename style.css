@@ -70,6 +70,8 @@ section {
 
 form div {
     display: flex;
+    justify-content: space-between;
+    width: 500px;
 }
 
 form p {
