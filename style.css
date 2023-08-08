@@ -42,3 +42,15 @@ header p {
     font-size: 1.1rem;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-left: 3rem;
+    width: 1000px;
+}
+
+.description h2 {
+    width: 800px;
+}
+
