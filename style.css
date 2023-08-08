@@ -57,11 +57,11 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    width: 1000px;
+    width: 80%;
 }
 
 .description h2 {
-    width: 800px;
+    width: 70%;
 }
 
 .form-wrapper {
@@ -83,7 +83,7 @@ form {
 form div {
     display: flex;
     justify-content: space-between;
-    width: 750px;
+    width: 60%;
 }
 
 form p {
