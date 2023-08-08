@@ -82,8 +82,7 @@ form {
 
 form div {
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    gap: 8rem;
 }
 
 form p {
