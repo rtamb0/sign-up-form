@@ -28,8 +28,7 @@ header div {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.3);
-    position: relative;
-    bottom: -400px;
+    margin-top: 400px;
 }
 
 header img {
