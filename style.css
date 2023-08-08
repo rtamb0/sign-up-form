@@ -46,6 +46,7 @@ header p {
 
 section {
     color: whitesmoke;
+    width: 100%;
 }
 
 .description {
@@ -58,6 +59,19 @@ section {
 
 .description h2 {
     width: 800px;
+}
+
+.form-wrapper {
+    background-color: rgb(41, 41, 41);
+}
+
+form div {
+    display: flex;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
 }
 
 input, button {
@@ -73,11 +87,3 @@ input {
     line-height: 1rem;
 }
 
-form div {
-    display: flex;
-}
-
-form p {
-    display: flex;
-    flex-direction: column;
-}
