@@ -120,17 +120,7 @@ input:required + span::before {
     content: "Required";
     position: absolute;
     left: 190px;
-    bottom: 40px;
-    font-size: 0.9rem;
-    color: rgb(248, 45, 45);
+    bottom: 38px;
+    font-size: 0.8rem;
+    color: rgb(172, 166, 166);
 }
-
-input + span::before {
-    content: "Optional";
-    position: absolute;
-    left: 190px;
-    bottom: 40px;
-    font-size: 0.9rem;
-    color: rgb(163, 162, 162);
-}
-
