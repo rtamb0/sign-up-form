@@ -66,17 +66,30 @@ section {
 
 .form-wrapper {
     background-color: rgb(41, 41, 41);
+    padding: 1.5rem 0;
+}
+
+.form-wrapper h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
 
 form div {
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 750px;
 }
 
 form p {
     display: flex;
     flex-direction: column;
+    gap: 0.3rem;
 }
 
 input, button {
@@ -90,5 +103,6 @@ input, button {
 input {
     padding: 0.3rem;
     line-height: 1rem;
+    width: 250px;
 }
 
