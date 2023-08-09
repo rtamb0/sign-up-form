@@ -166,7 +166,7 @@ input:nth-last-child(3):invalid + span::before {
 }
 
 input:nth-last-child(3):placeholder-shown + span::before, input:nth-last-child(3):valid + span::before {
-    bottom: 43px;
+    bottom: 44px;
 }
 
 input + span::before {
