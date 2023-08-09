@@ -108,6 +108,13 @@ form p {
     position: relative;
 }
 
+label span {
+    font-size: 60%;
+    font-style: italic;
+    position: relative;
+    bottom: 1px;
+}
+
 input, button {
     font-family: inherit;
     font-size: 90%;
