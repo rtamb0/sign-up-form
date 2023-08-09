@@ -54,7 +54,7 @@ section {
     justify-content: space-evenly;
 }
 
-.description, .form-wrapper > * {
+.description, .form-wrapper > *, .create-account {
     margin-left: 3rem;
 }
 
