@@ -14,7 +14,6 @@
 
 body {
     display: flex;
-    background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -53,6 +52,10 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-image: url(assets/Xenoblade_OST_Trinity_Box.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .description, .form-wrapper > *, .create-account {
