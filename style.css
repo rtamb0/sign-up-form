@@ -185,6 +185,7 @@ input:placeholder-shown + span::before {
     align-items: baseline;
     gap: 1.8rem;
     margin-bottom: 2rem;
+    font-size: 110%;
 }
 
 button {
@@ -192,7 +193,7 @@ button {
     border-radius: 0.7rem;
     border: 2px solid rgba(131, 33, 223, 0.795);
     background-color: rgb(60, 199, 134);
-    font-size: 110%;
+    font-size: inherit;
     color: rgb(150, 63, 63);
 }
 
