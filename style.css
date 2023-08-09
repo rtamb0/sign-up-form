@@ -131,15 +131,17 @@ input::placeholder {
 
 input:focus:invalid {
     outline-color: rgb(216, 53, 53);
+    box-shadow: 0px 0px 33px -3px rgb(216, 53, 53);
 }
 
 input:focus:valid {
     outline-color: rgb(61, 196, 95);
+    box-shadow: 0px 0px 33px -3px rgb(61, 196, 95);
 }
 
 input:focus:placeholder-shown {
     outline-color: rgb(48, 121, 216);
-    box-shadow: 5px 5px 33px -3px rgb(178, 182, 80);
+    box-shadow: 0px 0px 33px -3px rgb(178, 182, 80);
 }
 
 input:invalid {
