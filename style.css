@@ -157,7 +157,7 @@ input:required + span::before {
 input + span::before {
     content: "Optional";
     position: absolute;
-    left: 190px;
+    left: 192px;
     bottom: 38px;
     font-size: 0.8rem;
     color: rgb(172, 166, 166);
@@ -185,7 +185,7 @@ input:placeholder-shown + span::before {
     align-items: baseline;
     gap: 1.8rem;
     margin-bottom: 2rem;
-    font-size: 110%;
+    font-size: 1.1rem;
 }
 
 button {
