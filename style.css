@@ -161,14 +161,6 @@ input:required + span::before {
     color: rgb(172, 166, 166);
 }
 
-input:nth-last-child(3):invalid + span::before {
-    bottom: 58px;
-}
-
-input:nth-last-child(3):placeholder-shown + span::before, input:nth-last-child(3):valid + span::before {
-    bottom: 44px;
-}
-
 input + span::before {
     content: "Optional";
     position: absolute;
@@ -176,6 +168,19 @@ input + span::before {
     bottom: 38px;
     font-size: 0.8rem;
     color: rgb(172, 166, 166);
+}
+
+input[type='password']:invalid + span::after {
+    position: absolute;
+    content: "Password must be at least 8 characters long";
+    visibility: visible;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    color: rgb(255, 0, 0);
+}
+
+input[id='confirmpass']:invalid + span::after {
+    content: "Passwords do not match!";
 }
 
 input:valid + span::before {
@@ -192,6 +197,10 @@ input:placeholder-shown {
 
 input:placeholder-shown + span::before {
     color: rgb(172, 166, 166);
+}
+
+input[type='password']:placeholder-shown + span::after {
+    visibility: hidden;
 }
 
 .create-account {
