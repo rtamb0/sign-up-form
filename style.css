@@ -161,6 +161,14 @@ input:required + span::before {
     color: rgb(172, 166, 166);
 }
 
+input:nth-last-child(3):invalid + span::before {
+    bottom: 58px;
+}
+
+input:nth-last-child(3):placeholder-shown + span::before, input:nth-last-child(3):valid + span::before {
+    bottom: 43px;
+}
+
 input + span::before {
     content: "Optional";
     position: absolute;
