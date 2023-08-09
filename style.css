@@ -177,17 +177,13 @@ input + span::before {
     color: rgb(172, 166, 166);
 }
 
-input[type='password']:invalid + span::after {
+input[id='password']:invalid + span::after {
     position: absolute;
     content: "Password must be at least 8 characters long";
     visibility: visible;
     font-size: 0.9rem;
     white-space: nowrap;
     color: rgb(255, 0, 0);
-}
-
-input[id='confirmpass']:invalid + span::after {
-    content: "Passwords do not match!";
 }
 
 input:valid + span::before {
@@ -206,7 +202,7 @@ input:placeholder-shown + span::before {
     color: rgb(172, 166, 166);
 }
 
-input[type='password']:placeholder-shown + span::after {
+input[id='password']:placeholder-shown + span::after {
     visibility: hidden;
 }
 
