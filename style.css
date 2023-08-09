@@ -191,6 +191,8 @@ button {
     border-radius: 0.7rem;
     border: 2px solid rgba(131, 33, 223, 0.795);
     background-color: rgb(60, 199, 134);
+    font-size: 110%;
+    color: rgb(150, 63, 63);
 }
 
 button:hover {
