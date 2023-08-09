@@ -177,3 +177,14 @@ input:placeholder-shown {
 input:placeholder-shown + span::before {
     color: rgb(172, 166, 166);
 }
+
+button {
+    padding: 0.8rem 3rem;
+    border-radius: 0.7rem;
+    border: 2px solid rgba(131, 33, 223, 0.795);
+    background-color: rgb(60, 199, 134);
+}
+
+button:hover {
+    background-color: rgb(87, 155, 123);
+}
