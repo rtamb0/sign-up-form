@@ -42,7 +42,6 @@ header p {
     margin-top: 1.3rem;
     text-align: center;
     color: white;
-    font-size: 1.1rem;
 }
 
 section {
@@ -109,7 +108,7 @@ form p {
 }
 
 label span {
-    font-size: 60%;
+    font-size: 0.6rem;
     font-style: italic;
     position: relative;
     bottom: 1px;
@@ -117,7 +116,7 @@ label span {
 
 input, button {
     font-family: inherit;
-    font-size: 90%;
+    font-size: 0.9rem;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
