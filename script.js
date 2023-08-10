@@ -3,13 +3,13 @@ const confirmPassword = document.querySelector('#confirmpass');
 
 passwordInput.addEventListener('input', () => {
     confirmPassword.setAttribute("pattern", `${passwordInput.value}`);
-});
-
-confirmPassword.addEventListener('input', () => {
-    if (passwordInput.value.length < 8) {
-        confirmPassword.setCustomValidity('None');
+    if (passwordInput.value.length >= 8) {
+        confirmPassword.disabled = false;
     }
     else {
-        confirmPassword.setCustomValidity('');
+        confirmPassword.disabled = true;
+        if (passwordInput.value.length <= 1) {
+            confirmPassword.value = '';
+        };
     };
 });
