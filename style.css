@@ -178,7 +178,7 @@ input + span::before {
 
 input[type='password']:invalid + span::after {
     position: absolute;
-    content: "Password must be at least 8 characters long";
+    content: "Password is less than 8 characters long!";
     visibility: visible;
     font-size: 0.9rem;
     white-space: nowrap;
@@ -186,7 +186,11 @@ input[type='password']:invalid + span::after {
 }
 
 input[id='confirmpass']:invalid + span::after {
-    content: "Passwords does not match with each other!";
+    content: "Passwords do not match with each other!";
+}
+
+input[id='confirmpass']:invalid + span.fill-up-message::after {
+    content: "Please fill up the password field first.";
 }
 
 input:valid + span::before {
